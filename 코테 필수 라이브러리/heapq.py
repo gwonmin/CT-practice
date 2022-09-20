@@ -36,7 +36,7 @@
     
 #     # 힙의 모든 원소 꺼내기
 #     for i in range(len(h)):
-#         result.append(-heapq.heappop()) # 다시 원소에 - 붙이기
+#         result.append(-heapq.heappop(h)) # 다시 원소에 - 붙이기
 #     return result
 # result = heapsort([2,1,3,0,5,4])
 # print(result) # [5,4,3,2,1,0] 최소힙 - 오름차순 정렬
